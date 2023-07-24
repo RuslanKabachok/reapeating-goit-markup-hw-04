@@ -348,6 +348,7 @@ img {
 .worker-social-item:hover{
   background-color: #2196f3;
   color: #fff;
+  cursor: pointer;
 }
 
 .worker-social-item:not(:last-child){
@@ -447,16 +448,46 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  margin-bottom: 20px;
 }
 
 .footer-social-icon{
   width: 20px;
   height: 20px;
-  fill: #fff;
+  fill: currentColor;
 }
 
 .footer-social-list{
   display: flex;
+}
+
+.footer-social-wrapper{
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.footer-social-item{
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+}
+
+.footer-social-item:hover{
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.footer-social-item:not(:last-child){
+  margin-right: 10px;
 }
 /* ------------------PORTFOLIO------------------ */
 
